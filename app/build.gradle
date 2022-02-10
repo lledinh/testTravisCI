@@ -4,6 +4,7 @@ plugins {
 
 android {
     compileSdk 31
+    buildToolsVersion "29.0.2"
 
     defaultConfig {
         applicationId "com.example.testtravisci"
