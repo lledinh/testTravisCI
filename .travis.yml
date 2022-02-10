@@ -11,7 +11,7 @@ android:
 
   components:
     - tools
-    - build-tools-30.0.2
+    - build-tools-30.0.0-preview
     - android-30
     - android-22
     - extra-google-google_play_services
