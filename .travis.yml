@@ -11,8 +11,8 @@ android:
 
   components:
     - tools
-    - build-tools-30.0.0-preview
-    - android-30
+    - build-tools-29.0.2
+    - android-29
     - android-22
     - extra-google-google_play_services
     - extra-google-m2repository
@@ -21,7 +21,7 @@ android:
 
 before_install:
   - chmod +x gradlew
-  - yes | sdkmanager "platforms;android-30"
+  - yes | sdkmanager "platforms;android-29"
 
 before_script:
   - echo no | android create avd --force -n test -t android-22 --abi armeabi-v7a
